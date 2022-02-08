@@ -6,21 +6,24 @@ font: normal normal 13px/16px "Open Sans", sans-serif;
 background: #dfdfdf;
 }
 
-.container{
+.container {
 padding: 20px;
 width: 300px;
 margin: 0 auto;
 margin-top: 40px;
 background: white;
-border-radius: 5px;}
+border-radius: 10px;
+align-items: center;}
 
 form {
 display: inline-block;
+align-items: center;
 }
 
 input{
 padding: 4px 15px 4px 5px;
 }
+
 #button{
 display: inline-block;
 background-color:#fc999b;
@@ -46,10 +49,12 @@ ol li:nth-child(even){background: #dfdfdf;}
 li:hover{
   cursor: pointer;
  }
+
 .delete {
 	display: none;
 }
- li > crossOutButton {
+
+li > crossOutButton {
 	background: none;
 	border: none;
 	float: right;
