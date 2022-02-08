@@ -49,7 +49,7 @@ li:hover{
 .delete {
 	display: none;
 }
- li >.crossOutButton {
+ li > crossOutButton {
 	background: none;
 	border: none;
 	float: right;
