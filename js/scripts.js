@@ -15,10 +15,10 @@ function newItem() {
   function crossOut() {
     li.toggleClass("strike");
   }
-  li.on("click", crossOut);
+  li.on("click", crossOut)
 
-  //  Adding delete button to list items
-  let deleteButton = $('<button>X</button>');
+  //  Adding delete button
+  let deleteButton = $("<button>X</button>");
   deleteButton.addClass("crossOutButton");
   li.append(deleteButton);// delete button is added
 
